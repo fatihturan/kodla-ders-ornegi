@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "General Sans";
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo-text {
+	font: 38px "General Sans";
+	font-weight: 600;
+
+}
+
+.primary-nav {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	gap: 32px
+}
+
+.primary-nav a {
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+}
+
+.hero {
+	padding: 32px;
+	margin-top: 160px;
+	text-align: center;
+	background: url("hero-bg.png") no-repeat center center;
+	background-size: 1000px;
+}
+
+.hero h1 {
+	font-size: 72px;
+	font-weight: 600;
+  background: linear-gradient(90.04deg, #0CBBF2 0.94%, #0A05FC 37.05%, #9609C8 73.67%, #FBD300 99.97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+	margin: 16px 0 48px;
+	font-size: 36px;
+	line-height: 48px;
+
+}
+
+.hero-actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.primary-button {
+	display: flex;
+	align-items: center;
+	padding:0 32px;
+	height: 48px;
+	background: #000;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;;
+}
+
+.text-button {
+	display: flex;
+	align-items: center;
+
+	height: 48px;
+	color: #000;
+	font-weight: 500;
+	text-decoration: none;;
+}
